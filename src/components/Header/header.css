@@ -1,0 +1,41 @@
+img {
+  max-width: 180%;
+}
+.header_container {
+  position: sticky;
+  top: 0;
+  align-items: center;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.888);
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.header_left ul {
+  display: flex;
+  gap: 4%;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+.header_left ul a {
+  color: rgba(255, 255, 255, 0.806);
+  text-decoration: none;
+}
+.header_left ul a:hover {
+  color: white;
+}
+.header_right ul {
+  display: flex;
+  gap: 5%;
+  list-style: none;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 70%;
+}
+.li-img {
+  width: 15%;
+  padding-left: 7%;
+  margin-right: 4%;
+}
